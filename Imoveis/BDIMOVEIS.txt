@@ -1,0 +1,14 @@
+CREATE DATABASE Imoveis;
+
+USE Imoveis;
+
+CREATE TABLE Imoveis(
+	idImovel int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    endereco varchar (50),
+    numero int,
+    bairro varchar (50),
+    cidade varchar (50), 
+    CEP int, 
+    venda boolean,
+    valor double
+);
